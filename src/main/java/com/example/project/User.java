@@ -67,6 +67,6 @@ private Book[] book = new Book[5];
     
     // public String userInfo(){} //returns  "Name: []\nID: []\nBooks:\n[]"
     public String userInfo() {
-        return "Name: " + name + "\nId: " + Id + "\nBooks:\n" + bookListInfo();
+        return "Name: " + name + "\nId: " + Id + "\nBooks: \n" + bookListInfo();
     }
 }
